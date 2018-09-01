@@ -1,0 +1,30 @@
+.body {
+    text-align: center;
+}
+
+.body>.title {
+    height: 70px;
+    line-height: 70px;
+}
+
+.body>.data {
+    height: 50px;
+    line-height: 50px;
+}
+
+.body>.forget>a {
+    margin-left: 160px;
+}
+
+.body>.login {
+    height: 50px;
+    line-height: 50px;
+}
+
+.ant-input-wrapper {
+    width: 18%;
+}
+
+.ant-btn {
+    width: 18%;
+}

@@ -1,0 +1,42 @@
+.select {
+    height: 120px;
+    line-height: 120px;
+    width: 1200px;
+    background-color: white;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(7, 17, 27, .1);
+}
+
+.title {
+    width: 88px;
+    height: 30px;
+    font-size: 18px;
+    color: #07111b;
+    text-align: right;
+    float: left;
+}
+
+.choose {
+    margin-left: 66px;
+}
+
+.choose-nav-item {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.choose-nav-item>a {
+    height: 30px;
+    display: block;
+    line-height: 100%;
+    padding: 8px;
+    font-size: 14px;
+    color: #1c1f21;
+}
+
+.choose-nav-item.on>a {
+    background: #990033;
+    color: #fff;
+    border-radius: 2px;
+}

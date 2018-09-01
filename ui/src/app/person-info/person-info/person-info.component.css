@@ -1,0 +1,14 @@
+.person-center {
+    background-color: #F0F2F5;
+    padding: 100px;
+}
+
+.person-center-content {
+    width: 1200px;
+    margin: auto;
+}
+
+.information {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}

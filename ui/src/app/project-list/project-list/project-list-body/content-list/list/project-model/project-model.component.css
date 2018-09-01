@@ -1,0 +1,43 @@
+.project {
+    padding: 30px;
+    border-bottom: 1px solid #D9DDE1;
+}
+
+.project img {
+    width: 280px;
+    height: 160px;
+    border-radius: 4px;
+}
+
+.project .info {
+    padding-left: 20px;
+}
+
+.project a {
+    font-size: 26px;
+    color: #990033;
+}
+
+.project a>span {
+    font-size: 14px;
+    border-width: 1px;
+    border-color: #61C279;
+    color: #61C279;
+    margin-left: 10px;
+}
+
+.project p {
+    font-size: 18px;
+    color: #727F8F;
+    margin-top: 20px;
+}
+
+.project p>span {
+    font-size: 18px;
+    color: black;
+}
+
+.project .price {
+    color: #990033;
+    font-size: 16px;
+}

@@ -1,0 +1,59 @@
+.detail-content {
+    padding: 35px;
+}
+
+.project-troduce {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D9DDE1;
+}
+
+.project-troduce span {
+    font-size: 26px;
+}
+
+.project-troduce .content {
+    height: 380px;
+    width: 900px;
+    font-size: 14px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #F2F2F2;
+}
+
+.project-plan {
+    margin-top: 30px;
+}
+
+.project-plan-title span {
+    font-size: 26px;
+}
+
+.project-plan-title p {
+    font-size: 20px;
+}
+
+.project-other {
+    padding: 30px;
+    border-bottom: 1px solid #D9DDE1;
+}
+
+.project-other span {
+    font-size: 20px;
+    color: #990033;
+}
+
+.project-request {
+    padding-top: 30px;
+    border-bottom: 1px solid #D9DDE1;
+}
+
+.project-request span {
+    font-size: 26px;
+}
+
+.project-request p {
+    font-size: 14px;
+    padding-top: 15px;
+    width: 600px;
+    height: 200px;
+}

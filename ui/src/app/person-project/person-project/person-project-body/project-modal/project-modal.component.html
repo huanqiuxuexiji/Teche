@@ -1,0 +1,43 @@
+<div class="project">
+    <div nz-row class="header">
+        <div nz-col [nzSpan]="3">
+            <i class="fa fa-lg fa-weixin"></i>
+            <span class="type">{{project.type}}</span>
+        </div>
+        <div nz-col [nzSpan]="2">
+            <span class="title">{{project.type_word}}</span>
+        </div>
+        <div nz-col [nzSpan]="17">
+        </div>
+        <div nz-col [nzSpan]="2">
+            <span class="status">已拒绝</span>
+        </div>
+    </div>
+    <div nz-row class="content">
+        <div nz-col [nzSpan]="6">
+            <img [src]="project.img" />
+        </div>
+        <div class="info" nz-col [nzSpan]="18">
+            <span class="num">{{project.num}}</span>
+            <a href="/">{{project.name}}</a>
+
+            <div nz-row class="other">
+                <div class="price" nz-col [nzSpan]="4">
+                    <p>金额：<span>{{project.price}}</span></p>
+                </div>
+                <div class="period" nz-col [nzSpan]="4">
+                    <p>周期：<span>{{project.period}}</span></p>
+                </div>
+                <div class="state" nz-col [nzSpan]="4">
+                    <p>状态：<span>{{project.project_state}}</span></p>
+                </div>
+            </div>
+            <div class="btn">
+                <button nz-button [nzType]="'primary'">
+                            <span>开始合作</span>
+                          </button>
+            </div>
+        </div>
+
+    </div>
+</div>

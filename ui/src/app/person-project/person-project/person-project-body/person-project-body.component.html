@@ -1,0 +1,32 @@
+<div id="main-content">
+    <div class="content-list">
+        <div class="header">
+            <span class="title">我参与的项目</span>
+            <nz-dropdown>
+                <a class="ant-dropdown-link" nz-dropdown>
+                     所有状态<i class="anticon anticon-down"></i>
+                    </a>
+                <ul nz-menu>
+                    <li nz-menu-item>
+                        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">已通过</a>
+                    </li>
+                    <li nz-menu-item>
+                        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">已拒绝</a>
+                    </li>
+                    <li nz-menu-item>
+                        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">待审核</a>
+                    </li>
+                    <li nz-menu-item>
+                        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">已取消</a>
+                    </li>
+                </ul>
+            </nz-dropdown>
+        </div>
+        <div class="project-content">
+            <app-project-modal *ngFor="let pro of projects" [project]="pro"></app-project-modal>
+            <div class="page">
+                <nz-pagination [nzPageIndex]="1" nzShowTotal [nzTotal]="500" nzShowQuickJumper></nz-pagination>
+            </div>
+        </div>
+    </div>
+</div>

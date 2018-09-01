@@ -1,0 +1,10 @@
+<div class="select">
+    <span class="title">状态：</span>
+    <div class="choose">
+        <ul class="choose-menu">
+            <li class="choose-nav-item" [class.on]="s.stl" *ngFor="let s of status">
+                <a href="/">{{s.name}}</a>
+            </li>
+        </ul>
+    </div>
+</div>

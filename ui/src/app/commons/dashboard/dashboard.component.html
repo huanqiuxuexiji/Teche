@@ -1,0 +1,100 @@
+<div class="dashboard" nz-row>
+    <div nz-col class="menu company" [nzSpan]="3">
+        <a>虹软图像</a>
+    </div>
+    <div nz-col class="menu" [nzSpan]="2">
+        <a>项目</a>
+    </div>
+    <div nz-col class="menu" [nzSpan]="2">
+        <a>我参与的项目</a>
+    </div>
+    <div nz-col class="menu" [nzSpan]="2">
+        <a>帮助</a>
+    </div>
+    <div nz-col [nzSpan]="11"></div>
+    <!-- <div class="menu" nz-col [nzSpan]="4">
+                <nz-breadcrumb>
+                    <nz-breadcrumb-item>
+                        <a href="">登录</a>
+                    </nz-breadcrumb-item>
+                    <nz-breadcrumb-item>
+                        <a href="">注册</a>
+                    </nz-breadcrumb-item>
+                </nz-breadcrumb>
+            </div> -->
+    <div nz-col class="message" [nzSpan]="2">
+        <nz-dropdown>
+            <a class="message ant-dropdown-link" nz-dropdown>
+                <nz-badge [nzCount]="8" [nzOverflowCount]="10">
+                    <ng-template #content>
+                        <a href="/"><i class="fa fa-bell"></i></a>
+                    </ng-template>
+                </nz-badge>
+            </a>
+            <ul nz-menu class="message-card">
+                <div class="message-card-header">
+                    <h2>通知</h2>
+                    <a href="/">查看全部</a>
+                </div>
+                <div class="message-card-header">
+                    <span>暂时没有任何消息</span>
+                </div>
+            </ul>
+        </nz-dropdown>
+    </div>
+    <div class="person" nz-col [nzSpan]="2">
+        <nz-dropdown>
+            <a class="person ant-dropdown-link" nz-dropdown>
+                <img src="./assets/images/user.jpg" />
+            </a>
+            <ul nz-menu class="user-card">
+                <div class="user-card-header" nz-row>
+                    <div class="img" nz-col [nzSpan]="10">
+                        <a href="/">
+                            <img src="./assets/images/user.jpg" />
+                        </a>
+                    </div>
+                    <div class="info" nz-col [nzSpan]="14">
+                        <a href="/">
+                            <span class="name">环球学习机</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="user-card-body" nz-row>
+                    <div class="c history" nz-col [nzSpan]="12">
+                        <li class="b">
+                            <a href="/">
+                                <i class="fa fa-user"></i>个人中心</a>
+                        </li>
+                    </div>
+                    <div class="c setting" nz-col [nzSpan]="12">
+                        <li class="b">
+                            <a href="/">
+                                <i class="fa fa-tasks"></i>我参加的项目</a>
+                        </li>
+                    </div>
+                </div>
+                <div class="user-card-body" nz-row>
+                    <div class="c history" nz-col [nzSpan]="12">
+                        <li class="b">
+                            <a href="/">
+                                <i class="fa fa-group"></i>我的团队</a>
+                        </li>
+                    </div>
+                    <div class="c setting" nz-col [nzSpan]="12">
+                        <li class="b">
+                            <a href="/">
+                                <i class="fa fa-search"></i>提问</a>
+                        </li>
+                    </div>
+                </div>
+                <div class="logout" nz-row>
+                    <div nz-col [nzSpan]="2"></div>
+                    <div nz-col [nzSpan]="22">
+                        <a href="/">安全退出</a>
+                    </div>
+                </div>
+            </ul>
+        </nz-dropdown>
+    </div>
+</div>

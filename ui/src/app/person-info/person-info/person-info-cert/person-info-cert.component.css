@@ -1,0 +1,56 @@
+.cert-info {
+    padding: 35px 80px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(7, 17, 27, .1);
+}
+
+.info {
+    padding: 20px 0;
+}
+
+.info>.title>span {
+    color: #333333;
+    font-size: 24px;
+}
+
+.info>.title {
+    padding: 20px 0;
+    border-bottom: 1px solid #DDE3EB;
+}
+
+.info>.alert {
+    padding: 10px 0;
+}
+
+.info>.alert>p {
+    padding: 5px 0;
+    font-size: 14px;
+    color: #8796A8;
+}
+
+.cert-info>.info>.form>.title>span {
+    font-size: 16px;
+}
+
+.cert-info>.info>.form {
+    line-height: 40px;
+    padding: 20px 0;
+}
+
+:host::ng-deep .ant-input {
+    height: 40px;
+    width: 300px;
+}
+
+.ant-btn-primary {
+    width: 80px;
+    font-size: 16px;
+    height: 40px;
+    background-color: #990033;
+    border: none;
+}
+
+.ant-btn-primary:hover {
+    background-color: #bd0442;
+}

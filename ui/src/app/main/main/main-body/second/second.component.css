@@ -1,0 +1,18 @@
+.second {
+    border-top: 1px solid #D9DDE1;
+}
+
+.second>.title {
+    height: 120px;
+    line-height: 120px;
+}
+
+.second>.title>span {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.second>.content {
+    width: 1000px;
+    margin: auto;
+}

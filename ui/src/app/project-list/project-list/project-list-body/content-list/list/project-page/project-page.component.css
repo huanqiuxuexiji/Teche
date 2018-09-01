@@ -1,0 +1,9 @@
+.content-page {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+:host::ng-deep .ant-pagination {
+    font-size: 28px;
+}

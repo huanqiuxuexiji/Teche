@@ -1,0 +1,22 @@
+.first {
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.first span {
+    font-size: 22px;
+    color: #BCBCBC;
+}
+
+.first .val {
+    display: inline-block;
+    background-color: #FFCC66;
+    border-radius: 20px;
+    color: white;
+    height: 45px;
+    width: 200px;
+    margin-left: 10px;
+}

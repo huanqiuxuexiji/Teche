@@ -1,0 +1,40 @@
+.body {
+    text-align: center;
+}
+
+.body>.title {
+    height: 70px;
+    line-height: 70px;
+}
+
+.body>.data {
+    height: 50px;
+    line-height: 50px;
+}
+
+.body>.register {
+    height: 50px;
+    line-height: 50px;
+}
+
+.ant-input-wrapper {
+    width: 18%;
+}
+
+.ant-btn {
+    width: 18%;
+}
+
+.ant-checkbox-wrapper {
+    font-size: 10px;
+    margin-left: 10%
+}
+
+.ant-checkbox-inner {
+    width: 10px;
+    height: 10px;
+}
+
+.ant-checkbox-wrapper span {
+    padding-left: 0px;
+}

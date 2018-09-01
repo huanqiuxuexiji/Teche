@@ -1,0 +1,106 @@
+<div class="base-info">
+    <div nz-row class="header">
+        <div nz-col [nzSpan]="5">
+            <img src="./assets/images/user.jpg" />
+        </div>
+        <div nz-col [nzSpan]="7">
+            <p>欧阳辉弟</p>
+            <i class="fa fa-lg fa-id-card"></i>
+        </div>
+        <div nz-col [nzSpan]="5"></div>
+        <div nz-col [nzSpan]="7">
+            <button nz-button [nzType]="'primary'">
+                <span>申请加入团队</span>
+              </button>
+        </div>
+    </div>
+    <div class="account-info info">
+        <div class="title">
+            <span>账户信息</span>
+        </div>
+        <div class="alert">
+            <p class="first-alert">标有星号 (*) 的栏目为必填栏目, 并请验证邮箱和手机。</p>
+            <p class="second-alert">您的个人信息不会透露给任何第三方，请放心填写。</p>
+        </div>
+        <div class="body">
+            <div class="form eamil" nz-row>
+                <div nz-col class="title" [nzSpan]="6">
+                    <span>工作邮箱 * <nz-tag [nzColor]="'red'">未验证</nz-tag></span>
+                </div>
+                <div nz-col class="value" [nzSpan]="14">
+                    <nz-input [nzPlaceHolder]="'default size'"></nz-input>
+                </div>
+                <div nz-col class="update" [nzSpan]="4">
+                </div>
+            </div>
+            <div class="form telephone" nz-row>
+                <div nz-col class="title" [nzSpan]="6">
+                    <span>手机号 * <nz-tag [nzColor]="'#65C279'">已验证</nz-tag></span>
+                </div>
+                <div nz-col class="value" [nzSpan]="14">
+                    <span>15000242669</span>
+                </div>
+                <div nz-col class="update" [nzSpan]="4">
+                    <a href="/"><i class="fa fa-lg fa-edit"></i>修改</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="person-info info">
+        <div class="title">
+            <span>个人资料</span>
+        </div>
+        <div class="body">
+            <div class="form name" nz-row>
+                <div nz-col class="title" [nzSpan]="6">
+                    <span>姓名 *</span>
+                </div>
+                <div nz-col class="value" [nzSpan]="14">
+                    <span>彭佳辉</span>
+                </div>
+                <div nz-col class="update" [nzSpan]="4">
+                    <a href="/"><i class="fa fa-lg fa-edit"></i>修改</a>
+                </div>
+            </div>
+            <div class="form telephone" nz-row>
+                <div nz-col class="title" [nzSpan]="6">
+                    <span>QQ</span>
+                </div>
+                <div nz-col class="value" [nzSpan]="14">
+                    <nz-input [nzPlaceHolder]="'default size'"></nz-input>
+                </div>
+                <div nz-col class="update" [nzSpan]="4">
+
+                </div>
+            </div>
+            <div class="form address" nz-row>
+                <div nz-col class="title" [nzSpan]="6">
+                    <span>所在地</span>
+                </div>
+                <div nz-col class="value" [nzSpan]="5">
+                    <nz-select [nzPlaceHolder]="'所在省'" nzAllowClear>
+                        <nz-option *ngFor="let option1 of option1s" [nzLabel]="option1.label" [nzValue]="option1" [nzDisabled]="option1.disabled">
+                        </nz-option>
+                    </nz-select>
+                </div>
+                <div nz-col class="update" [nzSpan]="5">
+                    <nz-select [nzPlaceHolder]="'所在区'" nzAllowClear>
+                        <nz-option *ngFor="let option2 of option2s" [nzLabel]="option2.label" [nzValue]="option2" [nzDisabled]="option2.disabled">
+                        </nz-option>
+                    </nz-select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="click-opreat" nz-row>
+        <div nz-col [nzSpan]="16"></div>
+        <div nz-col [nzSpan]="4">
+            <button class="sure btn">确定</button>
+        </div>
+        <div nz-col [nzSpan]="4">
+            <button class="close btn">取消</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+<app-person-info-header></app-person-info-header>
+<div class="person-center">
+    <div class="person-center-content">
+        <div class="bread">
+            <nz-breadcrumb [nzSeparator]="'>'">
+                <nz-breadcrumb-item>
+                    个人中心
+                </nz-breadcrumb-item>
+                <nz-breadcrumb-item>
+                    <a href="">开发者信息</a>
+                </nz-breadcrumb-item>
+            </nz-breadcrumb>
+        </div>
+        <div class="information" nz-row>
+            <div nz-col [nzSpan]="6">
+                <app-person-info-common></app-person-info-common>
+            </div>
+            <div nz-col [nzSpan]="18">
+                <router-outlet></router-outlet>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<app-person-info-footer></app-person-info-footer>

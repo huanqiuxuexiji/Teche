@@ -1,0 +1,117 @@
+.base-info {
+    padding: 35px 80px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(7, 17, 27, .1);
+}
+
+.header {
+    padding: 26px;
+    border: solid 1px #DDE3EB;
+    border-radius: 4px;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.header p {
+    padding: 10px 0;
+    font-size: 20px;
+    color: black;
+}
+
+.header i {
+    color: #4289DB;
+}
+
+.ant-btn-primary {
+    margin-top: 10px;
+    width: 140px;
+    font-size: 16px;
+    height: 40px;
+    background-color: #990033;
+    border: none;
+}
+
+.ant-btn-primary:hover {
+    background-color: #bd0442;
+}
+
+.info>.title>span {
+    color: #333333;
+    font-size: 24px;
+}
+
+.info>.title {
+    padding: 20px 0;
+    border-bottom: 1px solid #DDE3EB;
+}
+
+.account-info>.alert {
+    padding: 10px 0;
+}
+
+.account-info>.alert>p {
+    padding: 5px 0;
+    font-size: 14px;
+    color: #8796A8;
+}
+
+.info>.body {
+    padding: 18px 0;
+}
+
+.info>.body>.form {
+    padding: 15px 0;
+    font-size: 14px;
+    color: black;
+}
+
+:host::ng-deep .ant-input {
+    height: 40px;
+    width: 300px;
+}
+
+.ant-select {
+    width: 120px;
+}
+
+:host::ng-deep.ant-select-selection {
+    height: 40px;
+    line-height: 40px;
+}
+
+:host::ng-deep.ant-select-selection__rendered {
+    line-height: 40px;
+}
+
+.click-opreat .btn.sure {
+    width: 80px;
+    font-size: 16px;
+    height: 40px;
+    color: white;
+    background-color: #990033;
+    border-radius: 4px;
+    border: none;
+}
+
+.click-opreat .btn.sure:hover {
+    background-color: #bd0442;
+}
+
+.click-opreat .btn.close {
+    width: 80px;
+    font-size: 16px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    border: solid 1px #DDE3EB;
+}
+
+.click-opreat .btn.close:hover {
+    background-color: #DDE3EB;
+}

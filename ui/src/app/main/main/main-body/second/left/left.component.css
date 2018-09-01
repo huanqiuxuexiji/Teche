@@ -1,0 +1,31 @@
+.left {
+    height: 380px;
+    border-bottom: 1px solid #D9DDE1;
+}
+
+.left .info {
+    margin-top: 70px;
+}
+
+.left .step-title {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.left .step-content {
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: #979FA8;
+}
+
+.left .list {
+    font-size: 16px;
+}
+
+.left img {
+    width: 580px;
+    height: 300px;
+}

@@ -1,0 +1,17 @@
+.footer {
+    height: 75px;
+    line-height: 75px;
+    background-color: #333333;
+    text-align: right;
+}
+
+.footer .company {
+    font-size: 26px;
+    color: white;
+    padding-right: 20px;
+}
+
+.footer .other {
+    font-size: 16px;
+    color: white;
+}

@@ -1,0 +1,30 @@
+.info-common {
+    padding-bottom: 15px;
+    margin-right: 50px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E4E4E4;
+    box-shadow: 2 2px 2px 2 rgba(7, 17, 27, .1);
+}
+
+.info-common>.item>h3 {
+    background-color: #E6EBF0;
+    font-size: 18px;
+    padding: 12px;
+}
+
+.info-common>.item>p {
+    font-size: 18px;
+    padding: 12px;
+    border-bottom: 1px solid white;
+}
+
+.info-common>.item>p:hover {
+    background-color: white;
+}
+
+.info-common>.item>p>i {
+    color: #4289DB;
+    float: right;
+}

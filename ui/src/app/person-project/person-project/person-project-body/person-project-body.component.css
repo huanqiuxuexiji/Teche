@@ -1,0 +1,33 @@
+#main-content {
+    background-color: #F0F2F5;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.content-list {
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    text-align: right;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.header>.title {
+    float: left;
+}
+
+.project-content {
+    margin: 20px 0;
+}
+
+.project-content>.page {
+    text-align: center;
+    padding: 20px 0;
+}
+
+:host::ng-deep .ant-pagination {
+    font-size: 28px;
+}

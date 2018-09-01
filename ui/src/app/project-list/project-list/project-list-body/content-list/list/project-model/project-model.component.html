@@ -1,0 +1,19 @@
+<div class="project">
+    <div nz-row>
+        <div nz-col [nzSpan]="6">
+            <img [src]="project.imgURL" />
+        </div>
+        <div class="info" nz-col [nzSpan]="9">
+            <a href="/">{{project.num}}{{project.name}}
+        <span>{{project.status}}</span>
+        </a>
+            <p>周期：<span>{{project.data}}</span></p>
+            <p>{{project.join_num}}人报名</p>
+        </div>
+        <div nz-col [nzSpan]="5">
+        </div>
+        <div nz-col [nzSpan]="4">
+            <span class="price">{{project.price}}</span>
+        </div>
+    </div>
+</div>
