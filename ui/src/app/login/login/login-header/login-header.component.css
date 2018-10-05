@@ -1,6 +1,6 @@
 #header {
-    height: 48px;
-    line-height: 48px;
+    height: 72px;
+    line-height: 72px;
     background-color: #fff;
 }
 
@@ -20,7 +20,7 @@
 #logo>a {
     display: block;
     width: auto;
-    height: 48px;
+    height: 72px;
     background: 0 0!important;
     text-indent: 0!important;
     overflow: hidden;
@@ -28,7 +28,7 @@
 }
 
 #logo>a>h1 {
-    height: 48px;
+    height: 72px;
     font-family: 微软雅黑, 宋体;
     font-size: 2em;
     color: #990033;

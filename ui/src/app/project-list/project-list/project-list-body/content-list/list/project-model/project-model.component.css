@@ -16,6 +16,9 @@
 .project a {
     font-size: 26px;
     color: #990033;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .project a>span {

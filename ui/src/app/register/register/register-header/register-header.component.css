@@ -1,6 +1,6 @@
 #header {
-    height: 48px;
-    line-height: 48px;
+    height: 72px;
+    line-height: 72px;
     background-color: #fff;
 }
 
@@ -20,7 +20,7 @@
 #logo>a {
     display: block;
     width: auto;
-    height: 48px;
+    height: 72px;
     background: 0 0!important;
     text-indent: 0!important;
     overflow: hidden;
@@ -28,55 +28,11 @@
 }
 
 #logo>a>h1 {
-    height: 48px;
+    height: 72px;
     font-family: 微软雅黑, 宋体;
     font-size: 2em;
     color: #990033;
     ;
-}
-
-.menu {
-    color: #1c1f21;
-    text-align: center;
-}
-
-.menu>a {
-    color: #4D555D;
-    font-weight: 400;
-    font-size: 11px;
-}
-
-#header {
-    height: 48px;
-    line-height: 48px;
-    background-color: #fff;
-}
-
-#header-nav {
-    width: auto;
-    z-index: 900;
-    box-shadow: 0 4px 8px 0 rgba(7, 17, 27, .1);
-    position: relative;
-    margin: 0 auto;
-}
-
-#logo {
-    float: left;
-    text-align: center;
-}
-
-#logo>a {
-    display: block;
-    width: auto;
-    height: 48px;
-    background: 0 0!important;
-    text-indent: 0!important;
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-#logo>a>img {
-    height: 48px;
 }
 
 .menu {

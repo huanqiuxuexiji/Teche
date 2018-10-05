@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SelectComponent implements OnInit {
 
-  private status = [{name: '全部', stl: true}, {name: '招募中', stl: false},
-                  {name: '开发中', stl: false}, {name: '已完成', stl: false}
+  private status = [{name: '全部', stl: true}, {name: '开放中', stl: false},
+                  {name: '合作中', stl: false}, {name: '合作已结束', stl: false}
   ];
   constructor() { }
 

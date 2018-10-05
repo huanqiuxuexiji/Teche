@@ -1,13 +1,13 @@
 <div class="main-header">
     <div class="dashboard" nz-row>
         <div nz-col class="menu company" [nzSpan]="3">
-            <a>虹软图像</a>
+            <a>智云科技</a>
         </div>
         <div nz-col class="menu" [nzSpan]="2">
-            <a>项目</a>
+            <a routerLink="/project-list" routerLinkActive="active">项目</a>
         </div>
         <div nz-col class="menu" [nzSpan]="2">
-            <a>我参与的项目</a>
+            <a routerLink="/person-project" routerLinkActive="active">我的项目</a>
         </div>
         <div nz-col class="menu" [nzSpan]="2">
             <a>帮助</a>
@@ -64,14 +64,14 @@
                     <div class="user-card-body" nz-row>
                         <div class="c history" nz-col [nzSpan]="12">
                             <li class="b">
-                                <a href="/">
+                                <a routerLink="/person-info/base">
                                     <i class="fa fa-user"></i>个人中心</a>
                             </li>
                         </div>
                         <div class="c setting" nz-col [nzSpan]="12">
                             <li class="b">
-                                <a href="/">
-                                    <i class="fa fa-tasks"></i>我参加的项目</a>
+                                <a routerLink="/person-project">
+                                    <i class="fa fa-tasks"></i>我的项目</a>
                             </li>
                         </div>
                     </div>
@@ -79,20 +79,20 @@
                         <div class="c history" nz-col [nzSpan]="12">
                             <li class="b">
                                 <a href="/">
-                                    <i class="fa fa-group"></i>我的团队</a>
+                                    <i class="fa fa-group"></i>我的会员</a>
                             </li>
                         </div>
                         <div class="c setting" nz-col [nzSpan]="12">
                             <li class="b">
                                 <a href="/">
-                                    <i class="fa fa-search"></i>提问</a>
+                                    <i class="fa fa-search"></i>客服</a>
                             </li>
                         </div>
                     </div>
                     <div class="logout" nz-row>
                         <div nz-col [nzSpan]="2"></div>
                         <div nz-col [nzSpan]="22">
-                            <a href="/">安全退出</a>
+                            <a routerLink="/login">安全退出</a>
                         </div>
                     </div>
                 </ul>
@@ -101,15 +101,15 @@
     </div>
     <div class="content">
         <div class="menu title">
-            <span>互联网数据图像信息服务平台</span>
+            <span>互联网科技成果转化服务平台</span>
         </div>
         <div class="menu project-list">
             <button nz-button [nzType]="'primary'">
-                <span>查看项目列表</span>
+                <a routerLink="/project-list"><span>查看项目列表</span></a>
               </button>
         </div>
         <div class="menu troduce">
-            <span>提供客户所需要的外包项目，更加轻松、便利的交易</span>
+            <span>提供客户所需要的项目，更加轻松、便利的交易</span>
         </div>
     </div>
 </div>
