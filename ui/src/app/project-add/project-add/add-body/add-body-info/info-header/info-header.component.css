@@ -1,0 +1,35 @@
+.info-header {
+    background-color: #F7FAFC;
+    border-radius: 4px;
+    padding: 25px;
+}
+
+.info-header .name {
+    font-size: 26px;
+}
+
+.info-header .status {
+    font-size: 18px;
+    color: #65C279;
+}
+
+.info-header .other {
+    margin-top: 30px;
+}
+
+.info-header p {
+    font-size: 18px;
+    color: #727F8F;
+}
+
+.info-header p>span {
+    font-size: 18px;
+    color: black;
+}
+
+.info-header .other .ant-btn-primary {
+    height: 36px;
+    font-size: 18px;
+    background-color: #990033;
+    border: none;
+}
