@@ -1,0 +1,33 @@
+.detail-comment {
+    width: 1200px;
+    background-color: white;
+    margin: 60px auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(7, 17, 27, .1);
+    text-align: center;
+}
+
+.opreat {
+    padding: 50px;
+    border-bottom: 1px solid #D9DDE1;
+}
+
+.opreat span {
+    font-size: 16px;
+    color: #727F8F;
+    cursor: pointer;
+}
+
+.thanks {
+    padding: 50px;
+}
+
+.thanks span {
+    font-size: 20px;
+    color: #727F8F;
+    cursor: pointer;
+}
+
+span>i {
+    margin-right: 10px;
+}
