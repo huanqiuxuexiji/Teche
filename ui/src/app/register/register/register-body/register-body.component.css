@@ -10,6 +10,7 @@
 .body>.data {
     height: 50px;
     line-height: 50px;
+    margin-bottom: 15px;
 }
 
 .body>.register {
@@ -17,17 +18,19 @@
     line-height: 50px;
 }
 
-.ant-input-wrapper {
-    width: 18%;
+:host::ng-deep .ant-input{
+    width: 300px;
+    height: 45px;
 }
 
-.ant-btn {
-    width: 18%;
+:host::ng-deep .ant-btn{
+    width: 300px;
+    height: 40px;
 }
 
 .ant-checkbox-wrapper {
     font-size: 10px;
-    margin-left: 10%
+    margin-left: 11%
 }
 
 .ant-checkbox-inner {

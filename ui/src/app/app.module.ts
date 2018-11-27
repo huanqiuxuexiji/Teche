@@ -8,6 +8,7 @@ import { NgZorroAntdModule } from 'ng-zorro-antd';
 import { RegisterModule } from './register/register.module';
 import { ProjectListModule } from './project-list/project-list.module';
 import { ProjectDetailModule } from './project-detail/project-detail.module';
+import { ProjectAddModule } from './project-add/project-add.module';
 import { PersonProjectModule } from './person-project/person-project.module';
 import { PersonInfoModule } from './person-info/person-info.module';
 import { PersonGroupModule } from './person-group/person-group.module';
@@ -31,6 +32,7 @@ import { AppComponent } from './app.component';
     RegisterModule,
     ProjectListModule,
     ProjectDetailModule,
+    ProjectAddModule,
     PersonProjectModule,
     PersonInfoModule,
     PersonGroupModule,

@@ -1,0 +1,17 @@
+.project-step {
+    padding: 30px;
+}
+
+.project-step span {
+    font-size: 20px;
+    color: black;
+}
+
+.project-step p {
+    height: 280px;
+    width: 880px;
+    font-size: 14px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #F2F2F2;
+}
