@@ -14,17 +14,17 @@
     padding: 12px;
 }
 
-.info-common>.item>p {
+.info-common>.item>a>p {
     font-size: 18px;
     padding: 12px;
     border-bottom: 1px solid white;
 }
 
-.info-common>.item>p:hover {
+.info-common>.item p:hover {
     background-color: white;
 }
 
-.info-common>.item>p>i {
+.info-common>.item>a>p>i {
     color: #4289DB;
     float: right;
 }
